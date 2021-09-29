@@ -10,9 +10,9 @@ TLDR; [Sample Threat Report for KubeArmor](./models/kubearmor/README.md)
 
 ## STRIDE Approach for Threat Modeling
 While there are multiple approaches for handling Threat Modeling, the STRIDE
-approach is the most popular approach in software engineering. STRIDE stands
-for Spoofing, Tampering, Repudiation, Information Disclosure, Denial of
-Service, and Elevation of Privilege.
+approach pioneered at Microsoft is the most popular approach in software
+engineering. STRIDE stands for Spoofing, Tampering, Repudiation, Information
+Disclosure, Denial of Service, and Elevation of Privilege.
 
 STRIDE requires one to decompose the system into components, modules and
 identify relation (connectivity) between them. You establish what is the trust
@@ -51,9 +51,17 @@ thank you for making the tool available to all).
 
 We have prepared a new template specifically for Kubernetes-native applications
 and modeled the open source
-[KubeArmor](https://github.com/kubearmor/kubearmor).
+[KubeArmor](https://github.com/kubearmor/kubearmor). The
+[k8s-template](./templates/k8s-STRIDE-template.tb7) allows us to import k8s
+entities such as pods, daemonsets, services, deployments, etc into the model
+and use k8s-specific trust boundaries such as "cluster trust boundary", "node
+trust boundary", "namespace trust boundary".
 
 The [k8s template](./templates/k8s-STRIDE-template.tb7) and the [KubeArmor
 Threat Model](./models/kubearmor/KubeArmor.tm7) along with its [Threat
-Report](https://refined-github-html-preview.kidonng.workers.dev/nyrahul/k8sthreatmodeling/raw/main/models/kubearmor/KubeArmor%20Threat%20Model.htm) is
-available in this repo.
+Report](https://refined-github-html-preview.kidonng.workers.dev/nyrahul/k8sthreatmodeling/raw/main/models/kubearmor/KubeArmor%20Threat%20Model.htm)
+is available in this repo.
+
+To use the k8s-template and the kubearmor threat model you need to [download
+Microsoft Threat Modeling
+Tool](https://docs.microsoft.com/en-us/azure/security/develop/threat-modeling-tool).
