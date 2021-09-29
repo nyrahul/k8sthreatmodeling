@@ -55,5 +55,5 @@ and modeled the open source
 
 The [k8s template](./templates/k8s-STRIDE-template.tb7) and the [KubeArmor
 Threat Model](./models/kubearmor/KubeArmor.tm7) along with its [Threat
-Report](./models/kubearmor/KubeArmor%20Threat%20Model.htm) is
+Report](https://refined-github-html-preview.kidonng.workers.dev/nyrahul/k8sthreatmodeling/raw/main/models/kubearmor/KubeArmor%20Threat%20Model.htm) is
 available in this repo.
