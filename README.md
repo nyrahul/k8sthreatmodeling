@@ -6,6 +6,8 @@ activity is a list of possible attacks on the system/deployment. The team can
 then evaluate each of the possible attacks and provide a mitigation or
 investigation strategy.
 
+TLDR; [Sample Threat Report for KubeArmor](./models/kubearmor/README.md)
+
 ## STRIDE Approach for Threat Modeling
 While there are multiple approaches for handling Threat Modeling, the STRIDE
 approach is the most popular approach in software engineering. STRIDE stands
@@ -53,5 +55,5 @@ and modeled the open source
 
 The [k8s template](./templates/k8s-STRIDE-template.tb7) and the [KubeArmor
 Threat Model](./models/kubearmor/KubeArmor.tm7) along with its [Threat
-Report](./models/kubearmor/KubeArmor\ Threat\ Model.htm) is
+Report]("./models/kubearmor/KubeArmor Threat Model.htm") is
 available in this repo.
