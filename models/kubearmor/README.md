@@ -9,7 +9,7 @@ containers in the pod use.
 
 ### Threat Model
 
-<center><img src=./models/kubearmor/ka-threat-model.png></center>
+<center><img src=./ka-threat-model.png></center>
 
 Threat Model shows the modules involved in KubeArmor and the connectivity
 involved. Also detailed out is the trust boundary at the Cluster, Node and
