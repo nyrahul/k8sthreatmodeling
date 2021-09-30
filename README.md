@@ -1,3 +1,5 @@
+<< THIS REPO HAS BEEN MOVE TO https://github.com/accuknox/k8sthreatmodeling >>
+
 # K8s Threat Modeling
 
 Threat Modeling allows one to specify the components of the software stack or a
