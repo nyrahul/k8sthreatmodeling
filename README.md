@@ -1,4 +1,4 @@
-<< THIS REPO HAS BEEN MOVE TO https://github.com/accuknox/k8sthreatmodeling >>
+<< THIS REPO HAS BEEN MOVED TO https://github.com/accuknox/k8sthreatmodeling >>
 
 # K8s Threat Modeling
 
